@@ -1,0 +1,10 @@
+@media (max-width: 935px){
+  .bigScreen{
+    display: none;
+  }
+}
+@media (max-width: 614px){
+  .middleScreen{
+    display: none;
+  }
+}

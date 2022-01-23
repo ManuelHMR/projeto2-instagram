@@ -24,10 +24,13 @@ body{
   margin-left: 25px;
   border-right: 8px;
 }
-.stories{
-  justify-content: center;
-  display: flex;
-  align-items: center;
+input{
+  width: 215px;
+  /* height: 28px;  Verificar*/
+  max-height: 28px;
+  text-align: center;
+  font-size: 12px;
+  color: #979797;;
 }
 .leftIcons img{
   margin-left: 10px;
@@ -60,33 +63,48 @@ body{
   width: 614px;
   height: 118px;
   border: 1px solid #DBDBDB;
+  border-radius: 3px;
   margin-top: 34px;
   margin-bottom: 24px;
   align-items: center;
+  justify-content: center;
+  position: relative;
+  display: flex;
+  overflow: hidden;
+  z-index: -2;
+}
+.stories ion-icon{
+  position: absolute;
+  right: 8px;
+  font-size: 26px;
+  color: #FFFFFF;
 }
 .stories p{
   font-size: 12px;
   padding: 0px 14px;
   color: #262626;
 }
+.firstStory{
+  padding-left: 20px;
+}
 .story{
-  background-color: indianred;
-  width: 190px;
-
+  width: 66px;
+  margin-left: 14px;
 }
 .storyImage{
   position: relative;
 }
 .storiesBack{
   position: absolute;
-  width: 66px;
+  z-index: 2;
+  width: 70px;
 }
 .feed{
   width: 614px;
 }
 .post{
   width: 614px;
-  height: 749px;
+  height: 747px;
   border: 1px solid #DBDBDB;
   margin-bottom: 60px;
   border-radius: 3px;
@@ -101,6 +119,7 @@ body{
   border-bottom: 1px solid #DBDBDB;
   display: flex;
   align-items: center;
+  position: relative;
 }
 .postTop img{
   height: 32px;
@@ -116,23 +135,41 @@ body{
 .postBottom{
   height: 76px;
   border-top: 1px solid #DBDBDB;
+  margin-top: -3px;
+  position: relative;
 }
 .postBottom img{
   width: 20px;
   height: 20px;
   border-radius: 20px;
+  margin: 7px 5px 0px 17px;
 }
 .postBottom ion-icon{
-  font-size: 20px;
+  font-size: 22px;
+  padding-left: 17px
+}
+.savePost{
+  position: absolute;
+  right: 17px;
+  top: 14px;
 }
 .postBottom p{
+  margin-top: 7px;
   font-size: 14px;
 }
 span{
   font-weight: bold;
 }
+.bottomUp{
+  margin-top: 13px;
+}
+.postTop ion-icon{
+  position: absolute;
+  right: 18px;
+}
 .bottomBottom{
   display: flex;
+  align-items: center;
 }
 .mainUser{
   display: flex;
@@ -143,7 +180,7 @@ span{
   width: 56px;
   border-radius: 56px;
   margin-right: 17px;
-}
+} 
 .otherName{
   font-size: 14px;
   padding-left: 11px;
@@ -152,7 +189,7 @@ span{
 .suggestions{
   display: flex;
   padding-top: 24px;
-
+  position: relative;
 }
 .suggestions p{
   font-weight: 500;
@@ -165,8 +202,9 @@ span{
   font-weight: 500;
   font-size: 12px;
   line-height: 14px;
-  text-align: right;
   color: #262626;
+  position: absolute;
+  right: 0px
 }
 .userSuggestions img{
   width: 32px;
