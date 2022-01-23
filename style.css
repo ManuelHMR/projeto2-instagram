@@ -10,6 +10,7 @@ body{
   display: flex;
   justify-content: center;
   border-bottom: 1px solid #dbdbdb;
+  z-index: 2;
 }
 .headerContent{
   width: 910px;
@@ -61,6 +62,24 @@ body{
   border: 1px solid #DBDBDB;
   margin-top: 34px;
   margin-bottom: 24px;
+  align-items: center;
+}
+.stories p{
+  font-size: 12px;
+  padding: 0px 14px;
+  color: #262626;
+}
+.story{
+  background-color: indianred;
+  width: 190px;
+
+}
+.storyImage{
+  position: relative;
+}
+.storiesBack{
+  position: absolute;
+  width: 66px;
 }
 .feed{
   width: 614px;
@@ -97,6 +116,23 @@ body{
 .postBottom{
   height: 76px;
   border-top: 1px solid #DBDBDB;
+}
+.postBottom img{
+  width: 20px;
+  height: 20px;
+  border-radius: 20px;
+}
+.postBottom ion-icon{
+  font-size: 20px;
+}
+.postBottom p{
+  font-size: 14px;
+}
+span{
+  font-weight: bold;
+}
+.bottomBottom{
+  display: flex;
 }
 .mainUser{
   display: flex;
