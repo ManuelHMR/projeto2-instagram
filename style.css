@@ -190,7 +190,7 @@ span{
   font-weight: bold;
 }
 .bottomUp{
-  margin-top: 13px;
+  margin-top: 6px;
 }
 .postTop ion-icon{
   position: absolute;
@@ -199,6 +199,7 @@ span{
 .bottomBottom{
   display: flex;
   align-items: center;
+
 }
 .mainUser{
   display: flex;
