@@ -7,4 +7,13 @@
   .middleScreen{
     display: none;
   }
+  .stories{
+    background-color: #FAFAFA;
+    border: none;
+  }
+}
+@media(min-width: 615px){
+  .smallScreen{
+    display: none;
+  }
 }
