@@ -10,6 +10,27 @@
   .stories{
     background-color: #FAFAFA;
     border: none;
+    margin-top: -1px;
+    margin-bottom: -1px;
+    position: relative;
+  }
+  .instagramIcon{
+    position: absolute;
+    left: 20px;
+    top: 18px;
+  }
+  .leftIcons ion-icon{
+    border-right: none;
+  }
+  .instagramName{
+    position: absolute;
+    top: 0px;
+    left: 235px
+  }
+  .paperPlane{
+    position: absolute;
+    right: 20px;
+    top: 18px;
   }
 }
 @media(min-width: 615px){

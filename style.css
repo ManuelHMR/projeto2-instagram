@@ -2,6 +2,9 @@ body{
   font-family: 'Roboto', sans-serif;
   background-color: #FAFAFA;
 }
+html {
+  overflow-x: hidden;
+}
 .header{
   background-color: #FFFFFF;
   position: fixed;
@@ -62,6 +65,7 @@ input{
   justify-content: center;
 }
 .stories{
+  background-color: #FFFFFF;
   width: 614px;
   height: 118px;
   border: 1px solid #DBDBDB;
@@ -113,6 +117,7 @@ input{
   width: 614px;
 }
 .post{
+  background-color: #FFFFFF;
   width: 614px;
   height: 747px;
   border: 1px solid #DBDBDB;
